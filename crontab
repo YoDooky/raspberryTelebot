@@ -1,0 +1,2 @@
+@reboot sh /home/dooky/mnr/minerstart.sh >/home/dooky/logs/cronlog 2>&1
+*/2 * * * * /home/dooky/mnr/telebot.sh >/home/dooky/logs/cronlog.log 2>&1

@@ -1,0 +1,5 @@
+pyTelegramBotAPi
+bs4
+lxml
+requests
+urllib3
