@@ -1,5 +1,5 @@
 # Add content of 'crontab' file to the end of cron config file via command 'crontab -e'. 
 # Change 'dooky' for your username
-# Put the files to directory /home/'username'/mnr/ and create here 'logs' directory
+# Put the files to directory /home/'username'/ and create here 'logs' directory
 # Install pip3 to raspbian
 # Install all requirments.txt
