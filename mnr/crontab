@@ -1,0 +1,4 @@
+# add thoose lines to the end of file via command 'crontab -e'. Change 'dooky' for your username
+# put the files to directory /home/'username'/mnr/ and create here 'logs' directory
+*/2 * * * * /home/dooky/mnr/telebot.sh >/home/dooky/logs/cronlog.log 2>&1
+@reboot sh /home/dooky/mnr/minerstart.sh >/home/dooky/logs/cronlog.log 2>&1
